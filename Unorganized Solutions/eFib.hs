@@ -1,0 +1,1 @@
+getFour xs = if length(show((head xs))) >= 1000 then length xs else getFour( ((head xs) + head (tail xs)): xs)
